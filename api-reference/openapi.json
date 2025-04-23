@@ -30,6 +30,13 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            },
+                      {
+            "name": "id",
+            "in": "path",
+            "description": "The maximum number of results to return",
+            "schema": {
+              "type": "string"
             }
           }
         ],
